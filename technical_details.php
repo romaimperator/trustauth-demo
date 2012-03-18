@@ -1,7 +1,7 @@
 <div class="row">
-  <header class="jumbotron subhead">
+  <div class="page-header">
     <h1>Technical Details</h1>
-  </header>
+  </div>
   <div class="span12">
     <h3>Existing User Authentication Process</h3>
     <ol>

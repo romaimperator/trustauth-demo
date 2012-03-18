@@ -1,7 +1,7 @@
 <div class="row">
-  <header class="jumbotron subhead">
+  <div class="page-header">
     <h1>Server Setup Details</h1>
-  </header>
+  </div>
   <div class="span12">
     <h3>To add Foamicate support to your server there's only a few simple steps:</h3>
       <ol class="linenums">
@@ -92,7 +92,6 @@
   }
   ?&gt;
           </pre>
-          <a class="btn" href="files/foamicatee.php">Download Now!</a>
         </li>
       </ol>
   </div>
