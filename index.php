@@ -10,7 +10,7 @@
   </head>
   <body onload="window.prettyPrint && prettyPrint()">
     <div class="container">
-      <input id="foamicate_url" type="hidden" value="http://127.0.0.1/foamicate_auth.php"/>
+      <input id="foamicate_url" type="hidden" value="http://foamicate.com/foamicate_auth.php"/>
 <?php
   include('mysql.php');
   session_start();
