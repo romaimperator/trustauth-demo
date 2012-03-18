@@ -5,8 +5,8 @@ include('mysql.php');
 session_start();
 
 // Define a few constants
-define('SUCCESS_URL', 'http://127.0.0.1/');
-define('FAIL_URL', 'http://127.0.0.1/failure.php');
+define('SUCCESS_URL', 'http://foamicate.com');
+define('FAIL_URL', 'http://foamicate.com/failure.php');
 
 if ( ! isset($_SESSION['authenticating']) ) {
     $_SESSION['authenticating'] = false;
@@ -25,8 +25,8 @@ if ( ! $_SESSION['authenticating']) {
     // TODO: change from GET to POST
     //$user = fetch_user_info($username);
     $user = array(
-        'public_key' => rawurldecode($_REQUEST['public_key']),
-        'random'     => $_REQUEST['random'],
+        'public_key' => rawurldecode($_POST['public_key']),
+        'random'     => $_POST['random'],
     );
 
     $result = Foamicatee::get_challenge($user);
@@ -40,12 +40,12 @@ else {
     $user   = $_SESSION['user'];
     $server = $_SESSION['server'];
 
-    if ( ! isset($_REQUEST['md5']) || ! isset($_REQUEST['sha'])) {
+    if ( ! isset($_POST['md5']) || ! isset($_POST['sha'])) {
         $result = Foamicatee::wrong_stage();
     }
     else {
-        $user['md5'] = $_REQUEST['md5'];
-        $user['sha'] = $_REQUEST['sha'];
+        $user['md5'] = $_POST['md5'];
+        $user['sha'] = $_POST['sha'];
 
         $result = Foamicatee::authenticate($user, $server, SUCCESS_URL, FAIL_URL);
 
