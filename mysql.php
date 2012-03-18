@@ -74,9 +74,10 @@ function get_notes($user_id) {
 }
 
 function fetch_all($result) {
-   while($row=mysql_fetch_array($result)) {
+    $return = array();
+    while($row=mysql_fetch_array($result)) {
        $return[] = $row;
-   }
-   return $return;
+    }
+    return $return;
 }
 ?>
