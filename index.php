@@ -57,13 +57,20 @@
         <h1>Hello and welcome to the demo site for Foamicate.</h1>
       </div>
       <div class="row">
-        <div class="span3">
+        <div class="span6">
           <h3>What is Foamicate?</h3>
           <p>Foamicate is a system for authenticating users without using passwords.
           Instead it uses public key cryptography and RSA authentication. These technologies
           allow users to be authenticated securely and more easily than with
           traditional passwords.</p>
         </div>
+        <div class="span6">
+          <h3>How can I get Foamicate?</h3>
+          <p>To use Foamicate all you need to do is install the Foamicator addon.</p>
+          <p><a class="btn btn-success" href="#downloads">Get the addon!</a></p>
+        </div>
+      </div>
+      <div class="row">
         <div class="span4">
           <h3>How does Foamicate work?</h3>
           <p>The server authenticates the client and uses the public key to associate
@@ -71,29 +78,19 @@
           <p><a class="btn" href="#technical">See Details</a></p>
         </div>
         <div class="span5">
-          <h3>How can I get Foamicate?</h3>
-          <div class="row">
-            <div class="span3">
-              <h5>For website owners:</h5>
-              <p>Allow users to authenticate using Foamicate with just a few simple steps.</p>
-              <p><a class="btn" href="#server">See Details</a></p>
-            </div>
-            <div class="span2">
-              <h5>For end users:</h5>
-              <p>To use Foamicate all you need to do is install the Foamicator addon.</p>
-              <p><a class="btn" href="#downloads">Get the addon!</a></p>
-            </div>
-          </div>
+          <h5>For website owners:</h5>
+          <p>Allow users to authenticate using Foamicate with just a few simple steps.</p>
+          <p><a class="btn" href="#server">See Details</a></p>
         </div>
       </div>
+      <section id="downloads">
+<?php include('downloads.php'); ?>
+      </section>
       <section id="technical">
 <?php include('technical_details.php'); ?>
       </section>
       <section id="server">
 <?php include('server_details.php'); ?>
-      </section>
-      <section id="downloads">
-<?php include('downloads.php'); ?>
       </section>
 <?php endif; ?>
       <hr>
