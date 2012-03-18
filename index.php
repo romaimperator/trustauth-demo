@@ -81,7 +81,7 @@
             <div class="span2">
               <h5>For end users:</h5>
               <p>To use Foamicate all you need to do is install the Foamicator addon.</p>
-              <p><a class="btn" href="files/foamicator.xpi">Get the addon!</a></p>
+              <p><a class="btn" href="#downloads">Get the addon!</a></p>
             </div>
           </div>
         </div>
@@ -91,6 +91,9 @@
       </section>
       <section id="server">
 <?php include('server_details.php'); ?>
+      </section>
+      <section id="downloads">
+<?php include('downloads.php'); ?>
       </section>
 <?php endif; ?>
       <hr>
