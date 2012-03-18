@@ -38,16 +38,20 @@
             </form>
           </div>
         </div>
-  <?php $notes = get_notes($_SESSION['user_id']); ?>
         <div class="row">
           <div class="span4">
+  <?php $notes = get_notes($_SESSION['user_id']); ?>
+  <?php if (count($notes) > 0): ?>
             <ol>
               <?php foreach ($notes as $note):  ?>
                 <li><?php echo $note['note']; ?></li>
               <?php endforeach; ?>
-          </ol>
+            </ol>
+  <?php else: ?>
+            <p>You haven't created any notes yet!</p>
+  <?php endif; ?>
+          </div>
         </div>
-      </div>
 <?php else: ?>
       <div class="hero-unit">
         <h1>Hello and welcome to the demo site for Foamicate.</h1>
