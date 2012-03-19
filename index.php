@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/favicon.png" />
     <link href="css/foamicate.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
@@ -77,7 +78,7 @@
           <p><a class="btn-large btn-success" href="files/Foamicator.xpi">Get the addon!</a></p>
         </div>
       </div>
-      <div style="margin-top:25px;" class="row">
+      <div id="info-row-2" class="row">
         <div class="span4">
           <h3>How does Foamicate work?</h3>
           <p>The server authenticates the client and uses the public key to associate the client
@@ -107,11 +108,14 @@
           </ul>
         </div>
       </div>
-      <section id="technical">
-<?php include('technical_details.php'); ?>
+      <section id="tutorial">
+  <?php include('tutorial.php'); ?>
       </section>
       <section id="server">
-<?php include('server_details.php'); ?>
+  <?php include('server_details.php'); ?>
+      </section>
+      <section id="technical">
+  <?php include('technical_details.php'); ?>
       </section>
 <?php endif; ?>
       <hr>
