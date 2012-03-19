@@ -57,20 +57,27 @@
         <h1>Hello and welcome to the demo site for Foamicate.</h1>
       </div>
       <div class="row">
-        <div class="span6">
+        <div class="span4">
           <h3>What is Foamicate?</h3>
           <p>Foamicate is a system for authenticating users without using passwords.
           Instead it uses public key cryptography and RSA authentication. These technologies
           allow users to be authenticated securely and more easily than with
           traditional passwords.</p>
         </div>
-        <div class="span6">
+        <div class="span4">
+          <h3>How do I add Foamicate to a site?</h3>
+          <p>Allowing users to authenticate using Foamicate is easy. There are just a few simple steps to
+          follow to use the PHP script and get Foamication up and running on your website.</p>
+          <p><a class="btn" href="#server">See Details</a></p>
+        </div>
+        <div class="span4">
           <h3>How can I get Foamicate?</h3>
-          <p>To use Foamicate all you need to do is install the Foamicator addon in your browser.</p>
-          <p><a class="btn btn-success" href="files/Foamicator.xpi">Get the addon!</a></p>
+          <p>Using Foamicate to login to websites is also easy. All you need to do is install the Foamicator
+          addon in your browser and you are ready to use the enhanced security provided by Foamicate.</p>
+          <p><a class="btn-large btn-success" href="files/Foamicator.xpi">Get the addon!</a></p>
         </div>
       </div>
-      <div class="row">
+      <div style="margin-top:25px;" class="row">
         <div class="span4">
           <h3>How does Foamicate work?</h3>
           <p>The server authenticates the client and uses the public key to associate the client
@@ -78,23 +85,28 @@
           <p><a class="btn" href="#technical">See Details</a></p>
         </div>
         <div class="span4">
-          <h3>How can I use Foamicate on my site?</h3>
-          <p>Allow users to authenticate using Foamicate with just a few simple steps.</p>
-          <p><a class="btn" href="#server">See Details</a></p>
         </div>
         <div class="span4">
           <h3>Who Am I?</h3>
-          <p>My name is Dan Fox and I'm a graduate student at Southern Illinois University Edwardsville.</p>
+          <p>My name is Dan Fox and I'm a graduate student at Southern Illinois University Edwardsville.
+          I created Foamicate to help fix the current issues with using passwords for authentication on websites.</p>
           <div class="btn-group">
             <a class="btn" href="mailto:romaimperator@gmail.com"><img src="img/email.png"/></a>
             <a class="btn" href="https://twitter.com/romaimperator"><img src="img/twitter_newbird_blue.png"/></a>
-            <a class="btn" href="https://github.com/romaimperator"><img src="img/octocat.png"/></a>
+            <a class="btn" href="https://github.com/romaimperator"><img src="img/github.png"/></a>
           </div>
         </div>
+        <div class="span4">
+          <h3>GitHub Links</h3>
+          <p>Here are the links to the source code for the PHP script, this demo site, and the Firefox addon. All
+          code written by me is released under the <a class="non-breaking" href="http://opensource.org/licenses/BSD-3-Clause">BSD 3-Clause License</a>.</p>
+          <ul class="unstyled">
+            <li><a href="http://github.com/romaimperator/Foamicatee-PHP">Get the PHP script</a></li>
+            <li><a href="http://github.com/romaimperator/Foamicator">Get the addon source</a></li>
+            <li><a href="http://github.com/romaimperator/Foamicate-Demo">Get the demo site source</a></li>
+          </ul>
+        </div>
       </div>
-      <section id="downloads">
-<?php include('downloads.php'); ?>
-      </section>
       <section id="technical">
 <?php include('technical_details.php'); ?>
       </section>
