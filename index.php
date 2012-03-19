@@ -66,19 +66,19 @@
         </div>
         <div class="span6">
           <h3>How can I get Foamicate?</h3>
-          <p>To use Foamicate all you need to do is install the Foamicator addon.</p>
-          <p><a class="btn btn-success" href="#downloads">Get the addon!</a></p>
+          <p>To use Foamicate all you need to do is install the Foamicator addon in your browser.</p>
+          <p><a class="btn btn-success" href="files/Foamicator.xpi">Get the addon!</a></p>
         </div>
       </div>
       <div class="row">
         <div class="span4">
           <h3>How does Foamicate work?</h3>
-          <p>The server authenticates the client and uses the public key to associate
-          the client with an account. The addon then redirects to a url based on success or failure.</p>
+          <p>The server authenticates the client and uses the public key to associate the client
+          with an account. The addon then takes the user to a url based on success or failure.</p>
           <p><a class="btn" href="#technical">See Details</a></p>
         </div>
-        <div class="span5">
-          <h5>For website owners:</h5>
+        <div class="span4">
+          <h3>How can I use Foamicate on my site?</h3>
           <p>Allow users to authenticate using Foamicate with just a few simple steps.</p>
           <p><a class="btn" href="#server">See Details</a></p>
         </div>
