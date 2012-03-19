@@ -107,11 +107,14 @@
           </ul>
         </div>
       </div>
-      <section id="technical">
-<?php include('technical_details.php'); ?>
+      <section id="tutorial">
+  <?php include('tutorial.php'); ?>
       </section>
       <section id="server">
-<?php include('server_details.php'); ?>
+  <?php include('server_details.php'); ?>
+      </section>
+      <section id="technical">
+  <?php include('technical_details.php'); ?>
       </section>
 <?php endif; ?>
       <hr>
