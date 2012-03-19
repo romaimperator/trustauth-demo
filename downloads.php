@@ -1,9 +1,11 @@
 <div class="row">
   <div class="span12">
-    <h1>Foamicate Links</h1>
+    <div class="page-header">
+      <h1>Foamicate Links</h1>
+    </div>
     <h3>Firefox Addon</h3>
     <ul class="unstyled">
-      <li><a href="files/Foamicator.xpi">Get Foamicator</a></li>
+      <li><a class="btn" href="files/Foamicator.xpi">Download Now!</a></li>
     </ul>
     <h3>GitHub Links</h3>
     <ul class="unstyled">
