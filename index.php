@@ -77,7 +77,7 @@
           <p><a class="btn-large btn-success" href="files/Foamicator.xpi">Get the addon!</a></p>
         </div>
       </div>
-      <div style="margin-top:25px;" class="row">
+      <div id="info-row-2" class="row">
         <div class="span4">
           <h3>How does Foamicate work?</h3>
           <p>The server authenticates the client and uses the public key to associate the client
