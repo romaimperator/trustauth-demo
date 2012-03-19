@@ -82,6 +82,15 @@
           <p>Allow users to authenticate using Foamicate with just a few simple steps.</p>
           <p><a class="btn" href="#server">See Details</a></p>
         </div>
+        <div class="span4">
+          <h3>Who Am I?</h3>
+          <p>My name is Dan Fox and I'm a graduate student at Southern Illinois University Edwardsville.</p>
+          <div class="btn-group">
+            <a class="btn" href="mailto:romaimperator@gmail.com"><img src="img/email.png"/></a>
+            <a class="btn" href="https://twitter.com/romaimperator"><img src="img/twitter_newbird_blue.png"/></a>
+            <a class="btn" href="https://github.com/romaimperator"><img src="img/octocat.png"/></a>
+          </div>
+        </div>
       </div>
       <section id="downloads">
 <?php include('downloads.php'); ?>
@@ -101,5 +110,6 @@
     <script src="js/jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="js/prettify.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
   </body>
 </html>
