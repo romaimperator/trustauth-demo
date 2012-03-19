@@ -5,7 +5,7 @@
     </div>
     <h3>Firefox Addon</h3>
     <ul class="unstyled">
-      <li><a href="files/Foamicator.xpi">Get Foamicator</a></li>
+      <li><a class="btn" href="files/Foamicator.xpi">Download Now!</a></li>
     </ul>
     <h3>GitHub Links</h3>
     <ul class="unstyled">
