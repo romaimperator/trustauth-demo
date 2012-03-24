@@ -8,3 +8,13 @@ footer.footer {
 #info-row-2 {
   margin-top: 25px;
 }
+
+.foam_pad_40 {
+  padding-bottom: 40px;
+}
+.foam_pad_20 {
+  padding-bottom: 20px;
+}
+span.foam_pad_20 {
+  display: inline-block;
+}
