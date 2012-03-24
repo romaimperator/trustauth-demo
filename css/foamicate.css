@@ -9,12 +9,9 @@ footer.footer {
   margin-top: 25px;
 }
 
-.foam_pad_40 {
+div.foamicator-tutorial > ol > li {
   padding-bottom: 40px;
 }
-.foam_pad_20 {
-  padding-bottom: 20px;
-}
-span.foam_pad_20 {
-  display: inline-block;
+div.foamicator-tutorial > ol > li > img {
+  margin-top: 20px;
 }
