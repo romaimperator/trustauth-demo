@@ -1,7 +1,7 @@
 body {
   padding-top: 60px;
 }
-footer.footer {
+.footer {
   padding: 35px 0 36px;
 }
 
@@ -9,9 +9,9 @@ footer.footer {
   margin-top: 25px;
 }
 
-div.foamicator-tutorial > ol > li {
+.foamicator-tutorial-li {
   padding-bottom: 40px;
 }
-div.foamicator-tutorial > ol > li > img {
+.foamicator-tutorial-img {
   margin-top: 20px;
 }
