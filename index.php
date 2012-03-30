@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foamicate</title>
     <link rel="icon" type="image/png" href="img/favicon.png" />
     <link href="css/foamicate.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -87,8 +88,6 @@
           <p><a class="btn" href="#technical">See Details</a></p>
         </div>
         <div class="span4">
-        </div>
-        <div class="span4">
           <h3>Who Am I?</h3>
           <p>My name is Dan Fox and I'm a graduate student at Southern Illinois University Edwardsville.
           I created Foamicate to help fix the current issues with using passwords for authentication on websites. If
@@ -100,9 +99,10 @@
           </div>
         </div>
         <div class="span4">
-          <h3>GitHub Links</h3>
+          <h3>Project Links</h3>
           <p>Here are the links to the source code for the PHP script, this demo site, and the Firefox addon. All
-          code written by me is released under the <a class="non-breaking" href="http://opensource.org/licenses/BSD-3-Clause">BSD 3-Clause License</a>.</p>
+          code written by me is released under the <a class="non-breaking" href="http://opensource.org/licenses/BSD-3-Clause">BSD 3-Clause License</a>.
+          Project IRC hosted on Freenode in #foamicate.</p>
           <ul class="unstyled">
             <li><a href="https://github.com/romaimperator/Foamicatee-PHP">Get the PHP script</a></li>
             <li><a href="https://github.com/romaimperator/Foamicator">Get the addon source</a></li>
