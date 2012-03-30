@@ -75,14 +75,15 @@
           <h3>How can I get Foamicate?</h3>
           <p>Using Foamicate to login to websites is also easy. All you need to do is install the Foamicator
           addon in your browser and you are ready to use the enhanced security provided by Foamicate.</p>
-          <p><a class="btn-large btn-success" href="files/Foamicator.xpi">Get the addon!</a></p>
+          <p><a class="btn-large btn-success" href="https://addons.mozilla.org/en-US/firefox/addon/foamicator/">Get the addon!</a></p>
         </div>
       </div>
       <div id="info-row-2" class="row">
         <div class="span4">
           <h3>How does Foamicate work?</h3>
           <p>The server authenticates the client and uses the public key to associate the client
-          with an account. The addon then takes the user to a url based on success or failure.</p>
+          with an account. The addon then takes the user to a url based on success or failure. Private keys are
+          stored in a local SQLite database secured with 256-bit AES encryption.</p>
           <p><a class="btn" href="#technical">See Details</a></p>
         </div>
         <div class="span4">
@@ -90,7 +91,8 @@
         <div class="span4">
           <h3>Who Am I?</h3>
           <p>My name is Dan Fox and I'm a graduate student at Southern Illinois University Edwardsville.
-          I created Foamicate to help fix the current issues with using passwords for authentication on websites.</p>
+          I created Foamicate to help fix the current issues with using passwords for authentication on websites. If
+          you feel you have a better name don't hesitate to email me with the subject "Foamicate".</p>
           <div class="btn-group">
             <a class="btn" href="mailto:romaimperator@gmail.com"><img src="img/email.png"/></a>
             <a class="btn" href="https://twitter.com/romaimperator"><img src="img/twitter_newbird_blue.png"/></a>
@@ -102,9 +104,11 @@
           <p>Here are the links to the source code for the PHP script, this demo site, and the Firefox addon. All
           code written by me is released under the <a class="non-breaking" href="http://opensource.org/licenses/BSD-3-Clause">BSD 3-Clause License</a>.</p>
           <ul class="unstyled">
-            <li><a href="http://github.com/romaimperator/Foamicatee-PHP">Get the PHP script</a></li>
-            <li><a href="http://github.com/romaimperator/Foamicator">Get the addon source</a></li>
-            <li><a href="http://github.com/romaimperator/Foamicate-Demo">Get the demo site source</a></li>
+            <li><a href="https://github.com/romaimperator/Foamicatee-PHP">Get the PHP script</a></li>
+            <li><a href="https://github.com/romaimperator/Foamicator">Get the addon source</a></li>
+            <li><a href="https://github.com/romaimperator/Foamicate-Demo">Get the demo site source</a></li>
+            <li><a href="https://github.com/romaimperator/Foamicator/wiki/Roadmap">Project Roadmap</a></li>
+            <li><a href="files/Foamicator.xpi">The latest version of the addon</a></li>
           </ul>
         </div>
       </div>
