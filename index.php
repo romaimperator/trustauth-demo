@@ -99,9 +99,10 @@
           </div>
         </div>
         <div class="span4">
-          <h3>GitHub Links</h3>
+          <h3>Project Links</h3>
           <p>Here are the links to the source code for the PHP script, this demo site, and the Firefox addon. All
-          code written by me is released under the <a class="non-breaking" href="http://opensource.org/licenses/BSD-3-Clause">BSD 3-Clause License</a>.</p>
+          code written by me is released under the <a class="non-breaking" href="http://opensource.org/licenses/BSD-3-Clause">BSD 3-Clause License</a>.
+          Project IRC hosted on Freenode in #foamicate.</p>
           <ul class="unstyled">
             <li><a href="https://github.com/romaimperator/Foamicatee-PHP">Get the PHP script</a></li>
             <li><a href="https://github.com/romaimperator/Foamicator">Get the addon source</a></li>
