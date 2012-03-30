@@ -87,8 +87,6 @@
           <p><a class="btn" href="#technical">See Details</a></p>
         </div>
         <div class="span4">
-        </div>
-        <div class="span4">
           <h3>Who Am I?</h3>
           <p>My name is Dan Fox and I'm a graduate student at Southern Illinois University Edwardsville.
           I created Foamicate to help fix the current issues with using passwords for authentication on websites. If
