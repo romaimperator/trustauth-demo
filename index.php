@@ -75,7 +75,7 @@
           <h3>How can I get Foamicate?</h3>
           <p>Using Foamicate to login to websites is also easy. All you need to do is install the Foamicator
           addon in your browser and you are ready to use the enhanced security provided by Foamicate.</p>
-          <p><a class="btn-large btn-success" href="files/Foamicator.xpi">Get the addon!</a></p>
+          <p><a class="btn-large btn-success" href="https://addons.mozilla.org/en-US/firefox/addon/foamicator/">Get the addon!</a></p>
         </div>
       </div>
       <div id="info-row-2" class="row">
