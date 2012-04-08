@@ -1,5 +1,5 @@
 <?php
-include('foamicatee.php');
+include('trustauth.php');
 include('mysql.php');
 
 session_start();
@@ -29,7 +29,7 @@ if ( ! $_SESSION['authenticating']) {
         'random'     => $_POST['random'],
     );
 
-    $result = Foamicatee::get_challenge($user);
+    $result = TrustAuth::get_challenge($user);
 
     $_SESSION['server'] = $result['server'];
     $_SESSION['user']   = $user;
@@ -41,13 +41,13 @@ else {
     $server = $_SESSION['server'];
 
     if ( ! isset($_POST['md5']) || ! isset($_POST['sha'])) {
-        $result = Foamicatee::wrong_stage();
+        $result = TrustAuth::wrong_stage();
     }
     else {
         $user['md5'] = $_POST['md5'];
         $user['sha'] = $_POST['sha'];
 
-        $result = Foamicatee::authenticate($user, $server, SUCCESS_URL, FAIL_URL);
+        $result = TrustAuth::authenticate($user, $server, SUCCESS_URL, FAIL_URL);
 
         if ($result['status']) {
             $_SESSION['logged_in'] = true;
