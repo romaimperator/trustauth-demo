@@ -9,6 +9,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <link href="css/prettify.css" type="text/css" rel="stylesheet">
+    <meta name="trustauth" content="/foamicate_auth.php"/>
   </head>
   <body onload="window.prettyPrint && prettyPrint()">
     <div class="container">
